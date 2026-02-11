@@ -41,5 +41,11 @@ The game uses a custom `FileLoader` system to manage resources dynamically:
 3. Run the `Main` class.
 4. Login with default credentials or register a new user.
 
+## 📝 Code Documentation & authorship
+The source code is meticulously documented with **Javadoc-style comments** to ensure readability and maintainability.
+- **In-Code Explanations:** Every class and critical method contains detailed descriptions of the logic, algorithms, and design choices.
+- **Educational Value:** The comments explain *why* specific OOP principles (like Polymorphism) were applied, making the codebase a reference for clean architecture.
+
+
 ---
 *Built by Emirhan Efe Yasar - Koç University Computer Engineering Student.*
