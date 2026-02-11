@@ -1,0 +1,30 @@
+A class is a blueprint for creating objects.
+Inheritance allows a class to acquire properties of another.
+Encapsulation hides data implementation details.
+An object is an instance of a class.
+A constructor initializes a new object.
+Method overloading means multiple methods with same name but different parameters.
+A package groups related classes.
+JVM runs Java bytecode.
+A variable stores data.
+An interface defines methods a class must implement.
+An object is an instance of a class.
+Polymorphism allows methods to do different things based on the object.
+Interfaces define contracts for classes.
+ArrayList and LinkedList are types of lists with different performance.
+'final' keyword prevents modification.
+Try-catch handles errors gracefully.
+:Generics allow type safety with collections.
+'equals()' compares object content, '==' compares references.
+'static' belongs to the class, not instance.
+Multithreading allows concurrent execution.
+Method overriding changes behavior in subclass.
+Polymorphism allows methods to do different things based on the object.
+SOLID principles improve software design.
+Overriding replaces superclass methods, overloading provides multiple versions.
+Singleton restricts class to one instance.
+Reflection inspects and modifies code at runtime.
+Garbage collection frees unused memory.
+Annotations provide metadata.
+Java Memory Model defines thread interaction.
+Synchronization manages thread safety.

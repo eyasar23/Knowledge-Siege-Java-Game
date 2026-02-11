@@ -1,0 +1,29 @@
+???:What is a class in Java?
+???:Explain inheritance in simple terms.
+???:What is encapsulation?
+???:Define an object.
+???:What is a constructor?
+???:Explain method overloading.
+???:What is a package?
+???:What does JVM stand for?
+???:What is a variable?
+???:What is an interface?
+???:What is polymorphism? Give an example.
+???:Explain interfaces and abstract classes.
+???:Describe the difference between an ArrayList and a LinkedList.
+???:What is the purpose of the 'final' keyword?
+???:Explain exception handling with try-catch.
+???:What are generics in Java?
+???:Explain the difference between equals() and ==.
+???:Describe the use of the 'static' keyword.
+???:What is multithreading?
+???:Explain Java Memory Model.
+???:Describe SOLID principles in OOP.
+???:Explain design patterns like Singleton and Factory.
+???:What is dependency injection?
+???:Explain the concept of reflection in Java.
+???:Describe garbage collection in JVM.
+???:What are annotations and how are they used?
+???:Explain Java Memory Model.
+???:What is the difference between checked and unchecked exceptions?
+???:Explain concurrency and synchronization.
