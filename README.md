@@ -5,34 +5,34 @@
 > *Developed as a comprehensive study on Object-Oriented Design patterns, Swing GUI management, and File I/O operations.*
 
 ## 🎮 Game Mechanics
-The player controls a student character navigating through academic levels. [cite_start]The goal is to survive by dodging "Question Boxes" (damage) while collecting "Information Boxes" (score) thrown by academic staff[cite: 241, 242].
+The player controls a student character navigating through academic levels. The goal is to survive by dodging "Question Boxes" (damage) while collecting "Information Boxes" (score) thrown by academic staff.
 - **Survival:** Health decreases when hit by questions.
-- [cite_start]**Progression:** The game consists of 3 distinct levels with increasing difficulty[cite: 243].
+- **Progression:** The game consists of 3 distinct levels with increasing difficulty.
 - **Victory:** Reaching the target score (150 pts) triggers the victory state.
 
 ## 🏗️ Technical Architecture & Design
-[cite_start]This project was built with a strong emphasis on **OOP Principles** to ensure modularity and scalability[cite: 343].
+This project was built with a strong emphasis on **OOP Principles** to ensure modularity and scalability.
 
 ### 1. Class Hierarchy & Polymorphism
 The core of the enemy logic relies on the abstract `KnowledgeKeeper` class.
 - **Base Class:** `KnowledgeKeeper` (Abstract) - Defines movement and shooting behaviors.
 - **Subclasses:** `SL`, `TA`, `Professor`.
-- [cite_start]**Polymorphism:** Each subclass overrides the `getShotSpeed()` and `shoot()` methods to behave differently[cite: 360, 364]. For instance, Professors shoot faster and present harder questions compared to SLs.
+- **Polymorphism:** Each subclass overrides the `getShotSpeed()` and `shoot()` methods to behave differently. For instance, Professors shoot faster and present harder questions compared to SLs.
 
 ### 2. File I/O & Data Management
-[cite_start]The game uses a custom `FileLoader` system to manage resources dynamically[cite: 326]:
-- [cite_start]**Dynamic Content:** Questions and Information texts are parsed from external `.txt` files (`questions.txt`, `info.txt`)[cite: 396].
-- [cite_start]**Persistence:** High scores and user credentials are saved/loaded locally using `ScoreSaverLoader`[cite: 321].
+The game uses a custom `FileLoader` system to manage resources dynamically:
+- **Dynamic Content:** Questions and Information texts are parsed from external `.txt` files (`questions.txt`, `info.txt`).
+- **Persistence:** High scores and user credentials are saved/loaded locally using `ScoreSaverLoader`.
 
 ### 3. Java Swing GUI
-- [cite_start]**Custom Rendering:** The game loop uses `paintComponent(Graphics g)` in `GamePanel` for real-time rendering of the player, projectiles, and UI elements[cite: 379].
+- **Custom Rendering:** The game loop uses `paintComponent(Graphics g)` in `GamePanel` for real-time rendering of the player, projectiles, and UI elements.
 - **Event Handling:** `KeyListeners` are used for smooth character movement.
-- [cite_start]**Swing Timers:** Used for the main game loop (`16ms` tick rate) to manage physics and collision detection[cite: 406].
+- **Swing Timers:** Used for the main game loop (`16ms` tick rate) to manage physics and collision detection.
 
 ## 📂 Project Structure
 - `src/core`: Main game logic (`GameEngine`, `Collision`, `Physics`).
 - `src/gui`: UI components (`GamePanel`, `VictoryPanel`, `MainMenu`).
-- [cite_start]`src/user`: User authentication and profile management system[cite: 403].
+- `src/user`: User authentication and profile management system.
 - `resources`: Assets (Images, Text data).
 
 ## 🚀 How to Run
